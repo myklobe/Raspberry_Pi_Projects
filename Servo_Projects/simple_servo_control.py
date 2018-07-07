@@ -3,7 +3,7 @@ import time
 
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(7,GPIO.OUT)
-p = GPIO.PWM(7,50)
+p = GPIO.PWM(7,50) # I used GPIO 7
 p.start(7.5)
 
 try:
