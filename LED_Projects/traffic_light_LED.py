@@ -14,11 +14,12 @@ while i < 10: #Loops 10 times, but you can make cycle indefinitely or for a spec
 	time.sleep(5000)
 	setupLED.redLEDOff() # Red Light off
 
-	setupLED.yellowLEDOn() # Yellow light on for 2 seconds
-	time.sleep(2000)
-	setupLED.yellowLEDOff() # Yellow light off
-	
 	setupLED.greenLEDOn() # Green light on for 5 seconds
 	time.sleep(5000)
 	setupLED.greenLEDOff() # Green light off
+
+	setupLED.yellowLEDOn() # Yellow light on for 2 seconds
+	time.sleep(2000)
+	setupLED.yellowLEDOff() # Yellow light off
+
 	i += 1
