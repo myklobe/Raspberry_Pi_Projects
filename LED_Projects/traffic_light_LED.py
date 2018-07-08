@@ -8,7 +8,6 @@ import simple_LED_blink_setup # This has my LED On/Off methods
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 
-
 i = 0
 while i < 10: #Loops 10 times, but you can make cycle indefinitely or for a specific # of times
 	setupLED.redLEDOn() # Red Light on for 5 seconds
