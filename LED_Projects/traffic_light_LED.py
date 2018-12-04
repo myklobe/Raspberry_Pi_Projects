@@ -3,7 +3,7 @@ import time
 import random
 import decimal
 from random import randint
-import simple_LED_blink_setup # This has my LED On/Off methods
+import setupLED # This has my LED On/Off methods
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
