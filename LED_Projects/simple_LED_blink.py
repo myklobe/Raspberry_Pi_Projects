@@ -28,5 +28,4 @@ while i < 10: #Loops 10 times, but you can make cycle indefinitely or for a spec
 	
 	setupLED.yellowLEDOff()
 	setupLED.randomSleeper()
-	
 	i += 1
