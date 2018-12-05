@@ -21,5 +21,4 @@ while i < 10: #Loops 10 times, but you can make cycle indefinitely or for a spec
 	setupLED.yellowLEDOn() # Yellow light on for 2 seconds
 	time.sleep(2000)
 	setupLED.yellowLEDOff() # Yellow light off
-
 	i += 1
