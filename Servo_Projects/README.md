@@ -23,7 +23,7 @@ The updated versionm, `app.py`, controls the servos from a static, locally hoste
     | [GPIO 7] -----|-------[330 omhm Resistor]------( Orange Lead )--|
     |				|
     |				|
- 	| [Ground Pin]--|---------------------------------( Brown Lead )--|
+    | [Ground Pin]--|---------------------------------( Brown Lead )--|
     |				|
     | [5v Pin] -----|-----------------------------------( Red Lead )--|		Servo 2
     |				|
