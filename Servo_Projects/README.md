@@ -15,20 +15,20 @@ The updated versionm, `app.py`, controls the servos from a static, locally hoste
 ```text
 	Raspberry Pi 3 B+         Breadboard				Servo
     +---------------+
-    |				|
+    |               |
     | [Ground Pin]--|---------------------------------( Brown Lead )--|
-    |				|
+    |               |
     | [5v Pin] -----|-----------------------------------( Red Lead )--|		Servo 1
-    |				|
+    |               |
     | [GPIO 7] -----|-------[330 omhm Resistor]------( Orange Lead )--|
-    |				|
-    |				|
+    |               |
+    |               |
     | [Ground Pin]--|---------------------------------( Brown Lead )--|
-    |				|
+    |               |
     | [5v Pin] -----|-----------------------------------( Red Lead )--|		Servo 2
-    |				|
+    |               |
     | [GPIO 11] ----|-------[330 omhm Resistor]------( Orange Lead )--|
-    |				|
+    |               |
     +---------------+
  ```
 
